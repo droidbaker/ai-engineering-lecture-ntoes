@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+venv/
+.Python
+
+# OS
+.DS_Store
+
+# Manim media cache
+media/
