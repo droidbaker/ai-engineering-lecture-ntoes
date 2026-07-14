@@ -6,7 +6,7 @@ Each note set is a full write-up (table of contents, timestamps, diagrams, and w
 
 ## How to use this repo
 
-Read the three groups below in order — each one builds on the last. Click a title to open the notes.
+Read the groups below in order — each one builds on the last. Click a title to open the notes.
 
 ---
 
@@ -41,6 +41,14 @@ Takes the LLM built above and wraps it in an agent loop — the same architectur
 | [AI Coding Agent From Scratch — Part 2](ai-coding-agent-from-scratch-part-2/ai-coding-agent-from-scratch-part-2.md) | Moving from raw bash to structured file tools (read/write schemas), sandboxing, system prompt design, manual context compaction, and a gatekeeper model for intent detection. |
 | [AI Coding Agent From Scratch — Part 3](ai-coding-agent-from-scratch-part-3/ai-coding-agent-from-scratch-part-3.md) | Replacing a monolithic `CLAUDE.md` with dynamic, on-demand "Skills," introducing sub-agents as tools, context isolation, and running parallel sub-agents for token efficiency. |
 | [AI Coding Agent From Scratch — Part 4](ai-coding-agent-from-scratch-part-4/ai-coding-agent-from-scratch-part-4.md) | Scaling to background/async sub-agents so the main loop stays responsive, multi-agent teams with a lead agent, workspace isolation via git worktrees, and streaming tool execution. |
+
+## 4. Design a RAG System (Chat with Your Documents)
+
+A full system-design walkthrough for a production Retrieval-Augmented Generation product, framed as an interview-style deep dive rather than a code build.
+
+| Notes | What it covers |
+|---|---|
+| [Design a RAG System — Chat with Your Documents](design-a-rag-system-chat-with-your-documents/design-a-rag-system-chat-with-your-documents.md) | Why plain LLMs fail on private data, RAG vs. fine-tuning trade-offs, chunking/embedding at scale (1M+ chunks), hybrid retrieval (vector + BM25), reranking, vector DB choices (Qdrant/pgvector), and latency/cost budgets for a real production system. |
 
 ---
 
